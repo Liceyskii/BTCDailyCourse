@@ -1,0 +1,6 @@
+{
+    "require": {
+        "goodmagma/bybit-php-api": "*",
+        "irazasyed/telegram-bot-sdk": "^3.14"
+    }
+}

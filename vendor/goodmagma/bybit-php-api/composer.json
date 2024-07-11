@@ -1,0 +1,33 @@
+{
+	"name" : "goodmagma/bybit-php-api",
+	"description" : "PHP SDK for ByBit V5 API",
+	"keywords" : [
+		"bybit",
+		"api",
+		"sdk",
+		"v5"
+	],
+	"type" : "library",
+	"require" : {
+		"php" : "^7.2.5 || ^8.0",
+		"guzzlehttp/guzzle" : "^7.7"
+	},
+	"license" : "MIT",
+	"autoload" : {
+		"psr-4" : {
+			"ByBit\\SDK\\" : "src/"
+		}
+	},
+	"homepage" : "https://github.com/goodmagma/bybit-php-api",
+	"authors" : [{
+			"name" : "Denis Torresan",
+			"email" : "denis.torresan@gmail.com"
+		}
+	],
+	"minimum-stability" : "dev",
+	"prefer-stable" : true,
+	"config" : {
+		"optimize-autoloader" : true,
+		"secure-http" : false
+	}
+}
